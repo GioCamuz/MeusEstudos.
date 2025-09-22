@@ -25,10 +25,11 @@ let idadeEx4 = promptLib("Qual a sua idade? ")
 
 if(idade >= 18) {
   console.log("Você pode tirar a CNH!")
-} else {
+} 
+else {
   let idadeRestante = 18 - idade
   alert(`Faltam ${idadeRestante} para você tirar a CNH.`)
-}
+     }
 
 
 const numero = promptLib("Digite um numero")
@@ -71,7 +72,7 @@ switch (diaDaSemana) {
     break
   default:
     console.log("Escolha um numero entre 1 e 7")
-}
+                    }
 
 
 let numeroWhile = 0
@@ -79,11 +80,11 @@ let numeroWhile = 0
 while (numeroWhile <= 10) {
   if (numeroWhile === 5) {
     break
-  }
+            }
 
   console.log(`Numero: ${numeroWhile}`)
   numeroWhile++  
-}
+  }
 
 
 
@@ -94,10 +95,11 @@ for (let index = 1; index <= 20; index++) {
 
   if (temResto) {
     continue
-  } else {
-    console.log(`Encontrei um numero par: ${index}`)
   } 
-}
+    else {
+    console.log(`Encontrei um numero par: ${index}`)
+          } 
+  }
 
 
 
@@ -111,12 +113,18 @@ let resultado;
 
 if (operacao === '+') {
   resultado = numeroDigitado1 + numeroDigitado2
-} else if (operacao === '-') {
+} 
+  else 
+    if (operacao === '-') {
   resultado = numeroDigitado1 - numeroDigitado2
-} else if (operacao === '*') {
+} 
+      else 
+        if (operacao === '*') {
   resultado = numeroDigitado1 * numeroDigitado2
-} else {
+} 
+          else {
   resultado = numeroDigitado1 / numeroDigitado2
-}
+  }
+
 
 console.log(resultado)
