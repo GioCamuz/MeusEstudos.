@@ -5,8 +5,8 @@ let idade = 18
 let jaAlmocou = false
 
 
-let numero1 = 50
-let numero2 = 5
+let numero1 = 40
+let numero2 = 4
 
 console.log(numero1 + numero2) 
 console.log(numero1 - numero2) 
@@ -39,8 +39,8 @@ for (let index = 0; index <= 10; index++) {
 }
 
 
-let numeroInt = 25
-let numeroStr = '25'
+let numeroInt = 15
+let numeroStr = '15'
 
 console.log(numeroInt == numeroStr) 
 console.log(numeroInt === numeroStr) 
@@ -128,3 +128,4 @@ if (operacao === '+') {
 
 
 console.log(resultado)
+
